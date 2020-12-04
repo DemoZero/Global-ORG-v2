@@ -1,0 +1,66 @@
+#toolbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo_wrapper {
+    display: inline-block;
+    margin: 0 4rem 0 1rem;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu_item {
+    margin: 0 1rem;
+    color: white;
+}
+
+.menu_item:hover {
+    background-color: #50c8ff17;
+}
+
+.search_bar {
+    width: 50vw;
+    margin-left: 4rem;
+}
+
+.inicio_texto_wrapper {
+
+    width: 50vw;
+    height: 100vh;
+    padding: 10px 1rem 0 2rem;
+    background-color: rgba(128, 128, 128, 0.205);
+    
+}
+
+.inicio_texto_header {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+strong {
+    color: #3880ff;
+}
+
+.texto_p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.entre_ou_cadastre {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.entre {
+    margin: 2rem 0;
+}

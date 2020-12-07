@@ -2,6 +2,8 @@ import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonSeg
 import React from 'react';
 import './Home.css';
 import { Search } from '../components/search_bar'
+import { Botoes_inicio } from '../components/buttons_inicio'
+import { Carrossel } from '../components/carrossel'
 
 const Home: React.FC = () => {
   return (
@@ -32,17 +34,17 @@ const Home: React.FC = () => {
       </IonHeader>
 
       <IonContent fullscreen>
-        <div className="inicio_texto_wrapper">
-          <h2 className='inicio_texto_header'>
-            A plataforma <strong>GLOBAL.ORG</strong> existe para conectar ONGs e pessoas que desejam ajudar suas causas.
-          </h2>
-          <p className='texto_p'>
-            Nossa plataforma permite que voluntários se cadastrem, procurem vagas e apliquem para trabalhos voluntários disponibilizados por ONGs cadastradas em nosso sistema.
-          </p>
-          <div id="entre_ou_cadastre">
-            <p className='entre_ou_cadastre'><IonButton shape='round'size='large' fill='solid' className='entre'>Entrar</IonButton> <IonButton shape='round' size='large' className='cadastre'>Cadastre-se</IonButton></p>
+        <main className='main_content'>
+          <div className="inicio_texto_wrapper">
+            <h2 className='inicio_texto_header'>
+              A plataforma <strong>GLOBAL.ORG</strong> existe para conectar ONGs com pessoas.
+            </h2>
           </div>
-        </div>
+          <div className='carrossel_wrapper'>
+            <Carrossel />
+          </div>
+        </main>
+
       </IonContent>
 
     </IonPage>

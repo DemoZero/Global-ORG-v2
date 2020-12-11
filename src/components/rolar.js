@@ -1,9 +1,6 @@
 export function rolar(ev) {
     const carrossel = document.getElementById('carrossel')
     const baseWidth = document.getElementById("a").clientWidth
-    const a = document.getElementById('a')
-    const b = document.getElementById('b')
-    const c = document.getElementById('c')
 
     console.log(carrossel.scrollLeft)
     console.log(carrossel.scrollWidth)

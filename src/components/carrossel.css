@@ -40,23 +40,22 @@
     display: inline-block;
     height: fit-content;
     top: 60%;
-}
-
-.carrossel_item_legenda_h1::first-letter {
-    margin-left: 3rem;
-}
-
-.carrossel_item_legenda_h1 {
-    padding-top: 1rem;
+    text-align: center;
 }
 
 .carrossel_item_legenda_p {
-    padding: 0.5rem 3rem 3rem;
+    text-align: center;
+    padding: 0 20px 25px 20px;
     line-height: 1.5rem;
 }
 
 .carrossel_link:hover {
     text-decoration: underline;
+}
+
+.carrossel_link {
+    outline: none;
+    margin-top: 2rem;
 }
 
 .botao_carrossel {
@@ -69,8 +68,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 
 .esquerdo {
     background-image: url('./carrossel-svg/seta-esquerda.svg');

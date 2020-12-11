@@ -6,6 +6,11 @@
 
 .carrossel_wrapper {
     overflow: hidden;
+    height: 100vh;
+}
+
+.toolbar {
+    position: fixed;
 }
 
 #toolbar {
@@ -24,6 +29,7 @@
 }
 
 .menu_item {
+    overflow: hidden;
     margin: 0 1rem;
     color: white;
 }
@@ -37,21 +43,19 @@
     margin-left: 4rem;
 }
 
-#shadow-root {
-    overflow: hidden;
-}
-
 .main_content {
-    max-height: 90vh;
-    overflow-y: hidden;
+    padding-top: 7vh;
+    overflow: hidden;
+    max-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .inicio_texto_wrapper {
+    padding-top: 2vh;
+    position: relative;
     width: 50vw;
     height: 100vh;
-    padding: 10px 1rem 0 2rem;
     background-color: rgba(128, 128, 128, 0.205);
 }
 
@@ -72,15 +76,3 @@ strong {
     line-height: 3rem;
 }
 
-.entre_ou_cadastre {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    font-size: 2rem;
-}
-
-.entre {
-    margin: 2rem 0;
-}
